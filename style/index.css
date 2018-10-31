@@ -199,3 +199,18 @@ button {
     background-color: rgba(000, 000, 000, 0.6);
 }
 
+
+/* ========== Hourly Weather =========== */
+
+#hourly-weather-wrapper{
+    background-color: rgba(236, 240, 241, 0.6);
+    color: #353B48;
+    bottom: -100%;
+    position: absolute;
+    transition: bottom 0.5s;
+}
+
+#hourly-weather-wrapper>div>div:last-child{
+    color: #636E72;
+}
+
