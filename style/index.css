@@ -1,3 +1,41 @@
 @import "./reset-css.css";
 @import "./loader.css";
-@import "./ripple.css"
+@import "./ripple.css";
+
+/* ========== Genereal Styke =========== */
+
+html, body, main {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    user-select: none;
+}
+
+/* ========== Genereal Used Classes =========== */
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.center-x {
+    position: relative;
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+.center-y {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
